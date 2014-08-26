@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.CanvasTransformer;
+import com.rae.view.slidingmenu.R;
 
 public class CustomViewBehind extends ViewGroup {
 

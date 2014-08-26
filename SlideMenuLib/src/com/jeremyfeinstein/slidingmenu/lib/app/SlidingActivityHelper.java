@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
-import com.jeremyfeinstein.slidingmenu.lib.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.rae.view.slidingmenu.R;
 
 public class SlidingActivityHelper {
 
@@ -71,6 +71,7 @@ public class SlidingActivityHelper {
 			secondary = false;
 		}
 		new Handler().post(new Runnable() {
+			@Override
 			public void run() {
 				if (open) {
 					if (secondary) {
